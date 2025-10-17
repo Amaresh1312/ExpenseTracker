@@ -1,0 +1,61 @@
+/* Custom Card Colors */
+#total-credit .card-body {
+    background-color: #28a745;
+}
+#total-debit .card-body {
+    background-color: #dc3545;
+}
+#current-balance .card-body {
+    background-color: #6f42c1;
+}
+
+/* Custom class for credit/debit text color in the table */
+.text-credit {
+    color: #28a745 !important;
+    font-weight: bold;
+}
+
+.text-debit {
+    color: #dc3545 !important;
+    font-weight: bold;
+}
+
+/* Action buttons styling */
+.action-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0 5px;
+    font-size: 1.1rem;
+}
+
+/* Modal display logic */
+.modal {
+    display: none; /* Hidden by default */
+    background-color: rgba(0,0,0,0.5); /* Semi-transparent background */
+}
+
+.modal.show {
+    display: block;
+}
+/* Custom style enhancements for Cashbook Recorder */
+
+/* Center modal */
+#edit-modal.show {
+    display: block;
+    background: rgba(0,0,0,0.5);
+}
+
+.modal-dialog {
+    margin-top: 80px;
+}
+
+.alert {
+    z-index: 9999;
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50vw;
+    min-width: 300px;
+}
